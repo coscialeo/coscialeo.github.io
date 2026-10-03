@@ -2,40 +2,52 @@
 ---
 @import "{{ site.theme }}";
 
+/* 1. Header background and padding */
 .page-header {
   background-color: #1a4266 !important;
   background-image: linear-gradient(120deg, #152d42, #2874a6) !important;
-  padding: 1rem 1rem !important; 
-  text-align: left !important;
+  
+  /* Only change top/bottom padding to fix the height. 
+     Leaving left/right alone ensures perfect alignment with the main text. */
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 
-/* Side-by-side layout container */
+/* 2. Side-by-side layout container */
 .header-container {
   display: flex;
-  align-items: center; /* Centers the items vertically */
-  gap: 2.5rem; /* Creates space between the photo and the text */
-  max-width: 64rem; /* Keeps it aligned with the main page content */
-  margin: 0 auto; /* Centers the container block itself */
+  align-items: center; 
+  gap: 2.5rem; 
+  max-width: 64rem; 
+  margin: 0 auto; 
 }
 
-/* Circular profile image */
+/* 3. Circular profile image */
 .header-profile-img {
   width: 150px;
   height: 150px;
-  border-radius: 50%; /* This mathematically forces a perfect circle */
-  object-fit: cover; /* Prevents the image from stretching */
-  border: 4px solid rgba(255, 255, 255, 0.2); /* A subtle white border */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255, 255, 255, 0.2);
   flex-shrink: 0;
 }
 
-/* Override Cayman's default centered text */
+/* 4. Left-align text */
 .page-header h1, 
 .page-header h2 {
   text-align: left !important;
   margin-top: 0;
 }
 
-/* Mobile behavior: Stack the image on top of the text on small screens */
+/* 5. FIX THE BUTTONS: Make them thinner and closer together */
+.page-header .btn {
+  padding: 0.5rem 1rem !important; /* Reduces vertical height */
+  margin-right: 0.5rem !important; /* Reduces horizontal space between buttons */
+  margin-bottom: 0.5rem !important;
+  font-size: 0.95rem !important; /* Slightly scales down the text */
+}
+
+/* 6. Mobile behavior */
 @media screen and (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -44,5 +56,8 @@
   .page-header h1, 
   .page-header h2 {
     text-align: center !important;
+  }
+  .page-header .btn {
+    margin-right: 0.25rem !important; /* Keeps them neat on small phones */
   }
 }
