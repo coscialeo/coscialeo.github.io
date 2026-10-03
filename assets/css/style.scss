@@ -23,8 +23,8 @@
 }
 
 .header-profile-img {
-  width: 144px;
-  height: 144px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid rgba(255, 255, 255, 0.2);
@@ -38,7 +38,7 @@
 /* First line: Name */
 .page-header h1 {
   text-align: left !important;
-  margin-top: -0.5rem !important;
+  margin-top: -1rem !important;
   margin-bottom: -0.5rem !important; /* Removes space below the name */
 }
 
