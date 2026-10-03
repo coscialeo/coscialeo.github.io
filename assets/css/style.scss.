@@ -4,5 +4,5 @@
 
 .page-header {
   background-color: #ffc219;
-  background-image: linear-gradient(120deg, #152d42, #2874a6);
+  background-image: linear-gradient(120deg, #ffc219, #2874a6);
 }
