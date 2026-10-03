@@ -19,17 +19,31 @@ Our experimental techniques rely on dilution refrigerators capable of reaching t
 
 ## Complete Publications
 
-### 2026
+<details>
+<summary><strong>2026</strong></summary>
+
 * **Mercer, A.**, Vance, M., & Zhao, Y. (2026). *"Coherent transport in topological insulator nanowires at sub-Kelvin temperatures."* **Physical Review B**, 104, 125401.  
   [Publisher DOI](https://doi.org) | [arXiv Preprint](https://arxiv.org)
 
-### 2025
+</details>
+
+
+<details>
+<summary><strong>2025</strong></summary>
+
 * Davis, C., & **Mercer, A.** (2025). *"Non-local quantum interference in planar Josephson junctions."* **Nature Communications**, 16, 8421.  
   [Publisher DOI](https://doi.org) | [PDF](./papers/nature-comm-2025.pdf)
 
-### 2024
+</details>
+
+
+<details>
+<summary><strong>2024</strong></summary>
+
 * **Mercer, A.**, Smith, R., & Jenkins, K. (2024). *"Magnetotransport signatures of Dirac semimetals under high pressure."* **Physical Review Letters**, 132, 046401.  
   [Publisher DOI](https://doi.org)
+
+</details>
 
 ---
 
