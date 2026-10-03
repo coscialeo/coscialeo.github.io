@@ -2,71 +2,11 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. FORCE HEIGHT: Cut padding in half */
 .page-header {
   background-color: #1a4266 !important;
   background-image: linear-gradient(120deg, #152d42, #2874a6) !important;
-  padding-top: 1.5rem !important; 
-  padding-bottom: 1.5rem !important; 
-}
-
-/* 2. MAIN LAYOUT: Side-by-side */
-.header-container {
-  display: flex;
-  align-items: center; 
-  justify-content: flex-start; /* Forces alignment to the left */
-  gap: 2rem; 
-  max-width: 64rem; 
-  margin: 0 auto; 
-}
-
-/* 3. IMAGE: Shrunk from 150px to 120px to allow a shorter header */
-.header-profile-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid rgba(255, 255, 255, 0.2);
-  flex-shrink: 0;
-}
-
-/* 4. FORCE LEFT ALIGNMENT on all text */
-.header-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Physically anchors text and buttons to the left edge */
-  text-align: left !important;
-}
-
-.page-header h1.project-name, 
-.page-header h2.project-tagline {
-  text-align: left !important;
-  margin-top: 0 !important;
-  margin-bottom: 0.5rem !important; /* Pulls the buttons up closer to the text */
-}
-
-/* 5. BUTTON LAYOUT: Closer together */
-.header-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem; /* This is the exact spacing between the buttons */
-}
-
-/* 6. BUTTON SIZE: Thinner and smaller */
-.header-buttons .btn {
-  padding: 0.3rem 0.8rem !important; /* Slices the height in half */
-  margin: 0 !important; /* Kills Cayman's default massive margins */
-  font-size: 0.85rem !important;
-  line-height: 1.2 !important;
-}
-
-/* 7. Mobile behavior */
-@media screen and (max-width: 768px) {
-  .header-container, .header-text {
-    align-items: center; /* Re-centers on mobile phones */
-    text-align: center !important;
-  }
-  .header-buttons {
-    justify-content: center;
-  }
+  
+  /* This controls the height. The default is 5rem. 
+     Change the 2rem to a smaller or larger number to adjust height. */
+  padding: 1rem 1rem !important; 
 }
