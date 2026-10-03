@@ -6,16 +6,23 @@
 .page-header {
   background-color: #1a4266 !important;
   background-image: linear-gradient(120deg, #152d42, #2874a6) !important;
+  
+  /* Kill the default header padding so our container can take full control */
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
-  text-align: left !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-/* Stripped max-width and margin so it perfectly inherits Cayman's built-in body alignment */
+/* Replicate Cayman's exact main body wrapper */
 .header-container {
   display: flex;
   align-items: center;
   gap: 2.5rem;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding-left: 6rem; /* Standard desktop alignment */
+  padding-right: 6rem;
 }
 
 .header-profile-img {
@@ -40,10 +47,21 @@
   font-size: 0.85rem !important;
 }
 
-@media screen and (max-width: 768px) {
+/* Replicate Cayman's tablet/medium alignment */
+@media screen and (max-width: 64rem) {
+  .header-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* Replicate Cayman's mobile alignment */
+@media screen and (max-width: 42rem) {
   .header-container {
     flex-direction: column;
     text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .page-header h1, 
   .page-header h2 {
