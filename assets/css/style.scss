@@ -1,75 +1,71 @@
----
----
 @import "{{ site.theme }}";
 
-/* 1. Header background and strict bounding box */
+/* 1. Header Background: Restored full width across the screen */
 .page-header {
-  background-color: #1a4266 !important;
-  background-image: linear-gradient(120deg, #152d42, #2874a6) !important;
-  
-  /* Forces the blue background to perfectly match the width of the main body */
-  max-width: 64rem !important;
-  margin: 0 auto !important; 
-  
-  /* We only adjust top/bottom padding to fix height. 
-     Leaving left/right empty allows the header to naturally align with the body text below. */
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+background-color: #1a4266 !important;
+background-image: linear-gradient(120deg, #152d42, #2874a6) !important;
+
+/* Only change top/bottom padding to make it less tall.
+Leaving left/right alone keeps the built-in theme alignment. */
+padding-top: 2rem !important;
+padding-bottom: 2rem !important;
+text-align: left !important;
 }
 
-/* 2. Side-by-side layout */
+/* 2. Layout Container: Aligns content with the body text /
 .header-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 2rem;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 2rem;
+max-width: 64rem; / Keeps the text/image from spilling past the body margins */
+margin: 0 auto;
 }
 
-/* 3. Circular image (Shrunk to 120px to allow a shorter header) */
+/* 3. Circular Image */
 .header-profile-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid rgba(255, 255, 255, 0.2);
-  flex-shrink: 0;
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid rgba(255, 255, 255, 0.2);
+flex-shrink: 0;
 }
 
-/* 4. Force strict left alignment for text */
+/* 4. Text Container: Standard flow restores side-by-side buttons */
 .header-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
+text-align: left;
 }
 
-.page-header h1, 
+.page-header h1,
 .page-header h2 {
-  text-align: left !important;
-  margin-top: 0 !important;
-  margin-bottom: 0.5rem !important; /* Pulls buttons closer to the text */
+text-align: left !important;
+margin-top: 0 !important;
+margin-bottom: 0.5rem !important;
 }
 
-/* 5. FIX BUTTONS: Less tall, closer together */
+/* 5. Buttons: Side-by-side, shorter, and closer together /
 .page-header .btn {
-  padding: 0.3rem 0.8rem !important; /* Shrinks the height */
-  margin: 0.2rem 0.5rem 0.2rem 0 !important; /* Tightens the horizontal space between them */
-  font-size: 0.85rem !important;
+display: inline-block !important; / Forces them to sit horizontally next to each other /
+padding: 0.4rem 0.8rem !important; / Makes them less tall /
+margin: 0.2rem 0.5rem 0.2rem 0 !important; / Brings them closer together */
+font-size: 0.85rem !important;
 }
 
-/* Mobile behavior */
+/* Mobile behavior for small screens */
 @media screen and (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    text-align: center;
-  }
-  .header-text {
-    align-items: center;
-  }
-  .page-header h1, 
-  .page-header h2 {
-    text-align: center !important;
-  }
-  .page-header .btn {
-    margin: 0.2rem !important;
-  }
+.header-container {
+flex-direction: column;
+text-align: center;
+}
+.header-text {
+text-align: center;
+}
+.page-header h1,
+.page-header h2 {
+text-align: center !important;
+}
+.page-header .btn {
+margin: 0.2rem !important;
+}
 }
