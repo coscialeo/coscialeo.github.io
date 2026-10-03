@@ -1,4 +1,38 @@
-# Prof. Elena Rostova
+[Home](/) | [Research](/research) | [Lecture Notes](/notes) | [CV (PDF)](./cv.pdf)
+
+---
+
+# Prof. Alex Mercer
+**Associate Professor of Physics**  
+*Department of Physics | Quantum Condensed Matter Group*  
+*University Name*
+
+---
+
+## Biography
+I am an experimental physicist leading the **Quantum Transport & Condensed Matter Group**. My research explores electronic transport, topological insulators, and low-dimensional quantum systems at ultra-low temperatures.
+
+---
+
+## News & Announcements
+* **[Fall 2026]** New course notes for *PHYS 401: Quantum Mechanics* are now available on the [Notes](/notes) page.
+* **[Summer 2026]** Paper accepted in *Physical Review B* on quantum coherence in topological nanoribbons.
+* **[Spring 2026]** Our lab received NSF grant funding for 2D heterostructure device fabrication.
+
+---
+
+## Selected Publications
+* **Mercer, A.**, et al. (2026). *"Coherent transport in topological insulator nanowires at sub-Kelvin temperatures."* **Phys. Rev. B**, 104, 125401.
+* Davis, C., & **Mercer, A.** (2025). *"Non-local quantum interference in planar Josephson junctions."* **Nature Communications**, 16, 8421.
+
+*See the full publication list on the [Research](/research) page or my [Google Scholar](https://scholar.google.com) profile.*
+
+---
+
+## Contact
+* **Office:** Physical Sciences Building, Room 412
+* **Lab:** Cryogenics Wing, Room 108
+* **Email:** [alex.mercer@university.edu](mailto:alex.mercer@university.edu)# Prof. Elena Rostova
 **Associate Professor of Physics**  
 *Department of Physics & Astronomy | Quantum Matter Institute*  
 *University of Science & Technology*
