@@ -5,8 +5,44 @@
 .page-header {
   background-color: #1a4266 !important;
   background-image: linear-gradient(120deg, #152d42, #2874a6) !important;
-  
-  /* This controls the height. The default is 5rem. 
-     Change the 2rem to a smaller or larger number to adjust height. */
-  padding: 1rem 1rem !important; 
+  padding: 3rem 2rem !important; 
+  text-align: left !important;
+}
+
+/* Side-by-side layout container */
+.header-container {
+  display: flex;
+  align-items: center; /* Centers the items vertically */
+  gap: 2.5rem; /* Creates space between the photo and the text */
+  max-width: 64rem; /* Keeps it aligned with the main page content */
+  margin: 0 auto; /* Centers the container block itself */
+}
+
+/* Circular profile image */
+.header-profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* This mathematically forces a perfect circle */
+  object-fit: cover; /* Prevents the image from stretching */
+  border: 4px solid rgba(255, 255, 255, 0.2); /* A subtle white border */
+  flex-shrink: 0;
+}
+
+/* Override Cayman's default centered text */
+.page-header h1, 
+.page-header h2 {
+  text-align: left !important;
+  margin-top: 0;
+}
+
+/* Mobile behavior: Stack the image on top of the text on small screens */
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .page-header h1, 
+  .page-header h2 {
+    text-align: center !important;
+  }
 }
