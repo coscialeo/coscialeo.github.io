@@ -90,3 +90,7 @@
 .main-content h4 {
   color: #2874a6 !important;
 }
+
+ol li::marker {
+  font-weight: bold !important;
+}
