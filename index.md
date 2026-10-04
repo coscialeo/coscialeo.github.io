@@ -24,4 +24,4 @@ My research interests lie in the study of **highly correlated**, **anyonic** and
 ## Contact
 * **Office:** TBD, Pisa, IT
 * **Email:** [leonardo.coscia@sns.it](mailto:leonardo.coscia@sns.it)
-* **LinkedIn:** [leonardo-coscia](www.linkedin.com/in/leonardo-coscia)
+* **LinkedIn:** [leonardo-coscia](https://www.linkedin.com/in/leonardo-coscia)
