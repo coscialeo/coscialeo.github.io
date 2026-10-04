@@ -1,7 +1,7 @@
 ## About me
-My name is Leonardo and I am a PhD candidate studying Condensed Matter Theory at Scuola Normale Superiore. I sometimes get the urge to organise notes on things I am studying: if I am able to dumb them down enough for myself, others may find what I write good enough for an introduction to these topics. I also write very questionable code, fixate on LateX and Typst templates, or create other random things.
+My name is Leonardo and I am a PhD candidate studying Condensed Matter Theory at Scuola Normale Superiore. I sometimes get the urge to organise [notes](/notes) on things I am studying: if I am able to dumb them down enough for myself, others may find what I write good enough for an introduction to these topics. I also write very questionable code, fixate on LateX and Typst templates, or create other [random things](/other).
 
-Given all of the above, why not share this stuff here, for all to see? And while I'm sharing, why not share how my journey in the world of research is going?
+Given all of the above, why not share this stuff here, for all to see? And while I'm sharing, why not share how my journey in the world of [research](/research) is going?
 
 ---
 
