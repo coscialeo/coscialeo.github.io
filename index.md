@@ -12,12 +12,12 @@ Given all of the above, why not share this stuff here, for all to see? And while
 ---
 
 ## My research, briefly
-I lead the **Quantum Transport & Topological Matter Lab**. Our research focuses on experimental condensed matter physics, specifically exploring quantum coherent transport, novel topological insulators, and 2D heterostructures under extreme conditions (low temperatures and high magnetic fields).
+My research interests lie in the study of highly correlated, anyonic and topological phases of matter through theoretical (and numerical) approaches.
 
 ### Selected Publications
 * Nothing yet, I'm afraid. It shouldn't take long, though.
 
-*See the full publication list on the [Research](/research) page or my [Google Scholar](https://scholar.google.com) profile.*
+*See the full publication list on the [Research](/research) page or my [Google Scholar]([https://scholar.google.com](https://scholar.google.com/citations?user=iaCp67kAAAAJ&hl=en)) profile.*
 
 ---
 
