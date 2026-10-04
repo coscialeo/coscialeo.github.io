@@ -15,4 +15,4 @@
 
 </details>
 
-*See the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=iaCp67kAAAAJ&hl=en) or my [ORCID](https://orcid.org/0009-0007-5668-5431) profile.*
+*You can also see the full publication list on my [Google Scholar](https://scholar.google.com/citations?user=iaCp67kAAAAJ&hl=en) or my [ORCID](https://orcid.org/0009-0007-5668-5431) profile.*
