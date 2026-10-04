@@ -94,3 +94,31 @@
 ol li::marker {
   font-weight: bold !important;
 }
+
+/* Ensure details summary acts as a clickable flex container */
+details summary {
+  cursor: pointer;
+  list-style: none; /* Removes default marker in Firefox */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between the triangle and the year */
+}
+
+/* Removes default marker in Safari and Chrome */
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Custom left-side triangle indicator */
+details summary::before {
+  content: "▶";
+  font-size: 0.7rem;
+  color: #1a4266; /* Matches your blue theme */
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+}
+
+/* Rotate the left triangle downward when opened */
+details[open] summary::before {
+  transform: rotate(90deg);
+}
